@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>LDS Themed Movie Collection</h1>
+<div class="container">
+    <div class="col-sm-4">
+        <img class="movie-img" src="~/images/cokeville.jpg" />
+    </div>
+    <div class="col-sm-4">
+        <img class="movie-img" src="~/images/singlesward.jpg" />
+    </div>
+    <div class="col-sm-4">
+        <img class="movie-img" src="~/images/saratov.jpg" />
+    </div>
+</div>
+
+<div class="container button-row">
+    <div class="col-sm-6">
+        <a asp-area="" class="movie-btn" asp-controller="Movies" asp-action="Index">View Collection</a>
+    </div>
+    <div class="col-sm-6">
+        <a asp-area="" class="movie-btn" asp-controller="Movies" asp-action="Create">Add a New Movie</a>
+    </div>
+</div>
